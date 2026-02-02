@@ -32,3 +32,8 @@ The database follows a star schema design:
 ## Power BI Report
 The repository includes the Power BI `.pbix` file for model and measure inspection.
 Live data refresh requires a local MySQL instance and is not expected to run out-of-the-box.
+
+## ETL Pipeline
+The Python script performs extraction, validation, and export of data from MySQL to analytics-ready formats (CSV and Parquet).
+
+
