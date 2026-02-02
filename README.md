@@ -28,3 +28,7 @@ The database follows a star schema design:
 2. Run `sql/setup/02_seed_dimensions.sql`
 3. Run `sql/setup/03_build_dim_date.sql`
 4. Load fact data using `python/generate_and_load.py`
+
+## Power BI Report
+The repository includes the Power BI `.pbix` file for model and measure inspection.
+Live data refresh requires a local MySQL instance and is not expected to run out-of-the-box.
