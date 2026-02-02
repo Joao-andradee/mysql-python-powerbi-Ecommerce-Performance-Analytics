@@ -23,4 +23,8 @@ The database follows a star schema design:
 - Customer activity and engagement
 - Product performance trends
 
-## Repository Structure
+## How to Run (MySQL)
+1. Run `sql/setup/01_create_db_and_tables.sql`
+2. Run `sql/setup/02_seed_dimensions.sql`
+3. Run `sql/setup/03_build_dim_date.sql`
+4. Load fact data using `python/generate_and_load.py`
